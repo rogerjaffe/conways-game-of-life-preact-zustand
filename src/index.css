@@ -1,0 +1,38 @@
+.cell {
+  height: 10px;
+  aspect-ratio: 1;
+}
+.dead {
+  background-color: white;
+}
+.alive {
+  background-color: black;
+}
+.u-table-container {
+  width: 100%;
+  height: 100%;
+}
+.u-table {
+  margin: 0 auto;
+}
+.in-setup {
+  background-color: blue;
+}
+table tr td {
+  border: 1px solid #ddd;
+}
+.status {
+  margin-top: 15px;
+}
+.population-status {
+  border-radius: 5px;
+  padding: 5px 0;
+}
+.stable {
+  color: white;
+  background-color: rgb(33, 134, 85);
+}
+.unstable {
+  color: white;
+  background-color: rgb(183, 47, 62);
+}
